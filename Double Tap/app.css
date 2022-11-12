@@ -26,6 +26,7 @@ small {
 
 .loveMe {
     height: 400px;
+    /*can adjust image, but got lazy*/
     width: 400px;
     background: url("David.jpg");
     margin: auto;
@@ -45,6 +46,10 @@ small {
 @keyframes grow {
     to {
         transform: translate(-50%, -50%) scale(10);
+        /*The -50% transform basically means, in simple words, 
+        "move this element left and upwards by 50% of the computed dimension along the axis". 
+        -50% along the x-axis means "move me leftwards by half my computed width", likewise 
+        for that in the y-axis.*/
         opacity: 0;
     }
 }
